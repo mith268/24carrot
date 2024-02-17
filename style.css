@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+}
+.nav-left ul{
+    display: flex;
+    gap: 2.5vw;
+
+}
+.nav-left ul li{
+    list-style: none;
+    font-size: 0.85rem;
+    font-family: "Roboto";
+    font-weight: 400;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+
+
+}
+.nav-center{
+    display: flex;
+    width: 33%;
+    font-family: "Josefin Sans", sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.nav-center h2{
+    
+    font-weight: 500;
+    font-size: 5vh;
+    color: rgba(0, 0, 0, 0.836);
+}
+.nav-center p{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.555);
+    letter-spacing: 2px;
+}
+.nav-right{
+    display: flex;
+    width: 33%;
+    justify-content: start;
+    align-items: center;
+
+}
+.nav-right ul{
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+.nav-right ul li{
+    list-style: none;
+    text-transform: uppercase;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 400;
+
+}
+.btn{
+    background-color: #be562a;
+    padding:1vw 1.5vw;
+    font-size: 12px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#main{
+    /* height: 100vh;
+    width: 100vw; */
+    position: relative;
+}
+#main video{
+    /* height: 100vh; */
+    width: 100%;
+}
+#main h1{
+    position: absolute;
+    top: 50vh;
+    color: white;
+   
+    font-family: "F37 Caslon",serif ;
+    font-size: 8vw;
+    left: 25vw;
+    font-weight: 300;
+
+}
+
+#home2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding-top: 10vw;
+}
+.home2-left{
+    display: flex;
+flex-direction: column;
+height: 100vh;
+align-items: center;
+/* background-color: green; */
+width: 100%;
+}
+.home2-left  h4{
+    font-family:"Rustica", sans-serif ;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#12461cce ;
+    font-size: 1.4vw;
+    letter-spacing: 2px;
+
+}
+.home2-left h1{
+    color: #1A4122;
+    font-family: "F37 Caslon", serif;
+    font-weight: 400;
+    font-size: 8vw;
+   
+    line-height: 0.9;
+}
+.h-container{
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home2-left .para p{
+   
+    font-family: "futura-pt", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    font-size: 1.5vw;
+ text-align: center;
+    width: 100%;
+   margin-top: 2vw;
+
+
+}
+.para{
+    width: 80%;
+  
+}
+
+
+
+.get-in-touch{
+    margin-top: 3vw;
+    text-transform: uppercase;
+    font-family: "futura-pt", sans-serif;
+    font-weight: 500;
+   color: white;
+    background-color: #C15627;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+   
+}
+.home2-right{
+height: 100vh;
+width: 100%;
+
+}
+
+.home2-right .right-img{
+height: 80vh; 
+background-color: red;
+background-image: url('	https://24carrots.com/wp-content/uploads/2023/10/1.1-Lorely-Meza-1.jpg  ');
+background-size: cover;
+border-radius: 20vw 0px 0px 0px;
+
+}
+#home3{
+    display: flex;
+    margin-top: 15vh;   
+   
+}
+.home3-left{
+    width: 45%;
+    height: 100vh;
+    background-color: purple;
+}
+.home3-left img{
+    width: 80%;
+    
+}
+.home3-right{
+    width: 55%;
+    height: 100vh;
+    background-color: red;
+}
